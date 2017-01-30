@@ -1,1 +1,1 @@
-# NSU
+# University tasks
