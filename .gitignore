@@ -1,0 +1,7 @@
+*.class
+*.out
+*.dll
+*.o
+*.so
+*.jar
+*.tar.gz
