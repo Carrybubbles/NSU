@@ -1,0 +1,122 @@
+Return-Path: <a.fedin@g.nsu.ru>
+X-Original-To: mail5@nsu.some-body.ru
+Delivered-To: mail5@nsu.some-body.ru
+Received: from mail-io0-f170.google.com (mail-io0-f170.google.com [209.85.223.170])
+	by some-body.ru (Postfix) with ESMTP id 56C24340400
+	for <mail5@nsu.some-body.ru>; Fri, 23 Dec 2016 19:35:06 +0300 (MSK)
+Received: by mail-io0-f170.google.com with SMTP id h133so20728959ioe.3
+        for <mail5@nsu.some-body.ru>; Fri, 23 Dec 2016 08:35:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=g-nsu-ru.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=FTBfgrSLe/FkKfDBOqFAV/51T856Sr2jBJyYW5gImqA=;
+        b=vOUTmg3ohjTQFElojiF6V8+85WXA3IHSc/pBNmmCiqxqdzIYIP5MG2sjf4EcpRwV1P
+         gB831QFLj6NBP0XwFgsjBB7qYIPOd56Vb1iDBZg65L6imE1SYh0SE+nWdvUCAPFhxK3W
+         cDtxzyNa+WYHbE+0Wj844APFi7NZxGO4IsAFD9L904MRkIUHeLWxf2iNPGk5qpKgFllU
+         L5/CScm8cbLKdS4aLmvrC8zB/L6l424tP4yelb1RetQaPqTBN/XNvl0W4EuCeeMf8VFz
+         DYkHU96D0YGmYPicte0p8OMaIPmwlYnAarEvPh0uJfJZQDEnvQ59mXe18Ble3esGzZLo
+         f9wg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=FTBfgrSLe/FkKfDBOqFAV/51T856Sr2jBJyYW5gImqA=;
+        b=kxc22lJGnzO0UAoKaWLRe24plrfsZAltpXCsOrGN6Px6bD5dGwNSiXqqG43sv+aaT/
+         TMjaufzcnKgaZP0aH/XM2MXK2a6CL2bNYOUbp3AGNMBghIIyBUt+WeO8y9Ubg7Ym6ci1
+         LDWIS7B3qYlWz5FCdq8+SjXTsxhNb/UGLnSR9mZcsak1egMeKam/hmnYmPU5e3Him5nN
+         6PQcmjp4RnMNHS648YzeQCJCZURdWCsYqVGnGyiEp+2C4re0kl0QTu4Ty1JfMx6vjnwr
+         YEJAm0nBsocKPwo13gtMM/10rATZAaXXIYNkgWvJOEQ4jJ0iSX9mphz8H3EN0gjrjyLz
+         me5Q==
+X-Gm-Message-State: AIkVDXLK6hO71YkUQ75kzKIFQEfIwaDVmB7HQvjfxnBNaob0HLOrua9o9318enCpBE1fliXHXlFEBanJJ5feyw==
+X-Received: by 10.107.59.9 with SMTP id i9mr16272448ioa.176.1482510905712;
+ Fri, 23 Dec 2016 08:35:05 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.79.35.38 with HTTP; Fri, 23 Dec 2016 08:35:05 -0800 (PST)
+In-Reply-To: <CAO1m1oVCSMHaHvXZ8sto-Mw98wNcJb0HKKveN53CcxLGZXsKZg@mail.gmail.com>
+References: <CAO1m1oWq4h3wnEyvvAqpx8pooqhHFCj583e0job_jgvYbessiQ@mail.gmail.com>
+ <CAO1m1oUjBW7iqRYvpBVU=fL9XsZv1ZSVmnh1z0DGQNDoy=BY6w@mail.gmail.com>
+ <CAO1m1oUPFe3_ZUYHu8Lmf2=c-p0u7NT-6isi=MMwOCxh3a1b=g@mail.gmail.com>
+ <CAO1m1oU=1RfW9WKaio2Y7j_xcBdnYfSEURe9xe681Hse3LJALQ@mail.gmail.com>
+ <CAO1m1oVkn=ap4Qc-a8xy==C_nk0dSy=ksTGcGNG4NfX1E9XU6g@mail.gmail.com> <CAO1m1oVCSMHaHvXZ8sto-Mw98wNcJb0HKKveN53CcxLGZXsKZg@mail.gmail.com>
+From: =?UTF-8?B?0JDRgNGC0LXQvCDQkNC70LXQutGB0LXQtdCy0LjRhyDQpNC10LTQuNC9?= <a.fedin@g.nsu.ru>
+Date: Fri, 23 Dec 2016 23:35:05 +0700
+Message-ID: <CAO1m1oUpuhp3b2PYkeGQkraii7KCimrMdy4R08=j3hZK=7mZ4Q@mail.gmail.com>
+Subject: Re: fsdf
+To: mail5@nsu.some-body.ru
+Content-Type: multipart/alternative; boundary=001a114f7e20e924e8054455f74d
+
+--001a114f7e20e924e8054455f74d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+c2RzZGZkZg0KDQoyMDE2LTEyLTIzIDIzOjM1IEdNVCswNzowMCDQkNGA0YLQtdC8INCQ0LvQtdC6
+0YHQtdC10LLQuNGHINCk0LXQtNC40L0gPGEuZmVkaW5AZy5uc3UucnU+Og0KDQo+IGFzZGZzZGZz
+ZGYNCj4NCj4gMjAxNi0xMi0yMyAyMzozNCBHTVQrMDc6MDAg0JDRgNGC0LXQvCDQkNC70LXQutGB
+0LXQtdCy0LjRhyDQpNC10LTQuNC9IDxhLmZlZGluQGcubnN1LnJ1PjoNCj4NCj4+IGFzZGFzZA0K
+Pj4NCj4+IDIwMTYtMTItMjMgMjM6MzQgR01UKzA3OjAwINCQ0YDRgtC10Lwg0JDQu9C10LrRgdC1
+0LXQstC40Ycg0KTQtdC00LjQvSA8YS5mZWRpbkBnLm5zdS5ydT46DQo+Pg0KPj4+IHNhc2Rhc2QN
+Cj4+Pg0KPj4+IDIwMTYtMTItMjMgMjM6MzQgR01UKzA3OjAwINCQ0YDRgtC10Lwg0JDQu9C10LrR
+gdC10LXQstC40Ycg0KTQtdC00LjQvSA8YS5mZWRpbkBnLm5zdS5ydT46DQo+Pj4NCj4+Pj4gYWFz
+ZGFzZA0KPj4+Pg0KPj4+PiAyMDE2LTEyLTIzIDIzOjIzIEdNVCswNzowMCDQkNGA0YLQtdC8INCQ
+0LvQtdC60YHQtdC10LLQuNGHINCk0LXQtNC40L0gPGEuZmVkaW5AZy5uc3UucnU+Og0KPj4+Pg0K
+Pj4+Pj4gc2Rmc2RmDQo+Pj4+Pg0KPj4+Pj4gMjAxNi0xMi0yMyAyMzoyMiBHTVQrMDc6MDAg0JDR
+gNGC0LXQvCDQkNC70LXQutGB0LXQtdCy0LjRhyDQpNC10LTQuNC9IDxhLmZlZGluQGcubnN1LnJ1
+PjoNCj4+Pj4+DQo+Pj4+Pj4gc2Rmc2RmDQo+Pj4+Pj4NCj4+Pj4+DQo+Pj4+Pg0KPj4+Pg0KPj4+
+DQo+Pg0KPg0K
+--001a114f7e20e924e8054455f74d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">sdsdfdf<br></div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">2016-12-23 23:35 GMT+07:00 =D0=90=D1=80=D1=82=D0=B5=D0=BC =
+=D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B5=D0=B5=D0=B2=D0=B8=D1=87 =D0=A4=D0=B5=
+=D0=B4=D0=B8=D0=BD <span dir=3D"ltr">&lt;<a href=3D"mailto:a.fedin@g.nsu.ru=
+" target=3D"_blank">a.fedin@g.nsu.ru</a>&gt;</span>:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div dir=3D"ltr">asdfsdfsdf<br></div><div class=3D"HOEnZb"><d=
+iv class=3D"h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">2=
+016-12-23 23:34 GMT+07:00 =D0=90=D1=80=D1=82=D0=B5=D0=BC =D0=90=D0=BB=D0=B5=
+=D0=BA=D1=81=D0=B5=D0=B5=D0=B2=D0=B8=D1=87 =D0=A4=D0=B5=D0=B4=D0=B8=D0=BD <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:a.fedin@g.nsu.ru" target=3D"_blank">=
+a.fedin@g.nsu.ru</a>&gt;</span>:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div cla=
+ss=3D"m_8300581034474087437HOEnZb"><div class=3D"m_8300581034474087437h5"><=
+div dir=3D"ltr">asdasd<br></div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">2016-12-23 23:34 GMT+07:00 =D0=90=D1=80=D1=82=D0=B5=D0=BC =
+=D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B5=D0=B5=D0=B2=D0=B8=D1=87 =D0=A4=D0=B5=
+=D0=B4=D0=B8=D0=BD <span dir=3D"ltr">&lt;<a href=3D"mailto:a.fedin@g.nsu.ru=
+" target=3D"_blank">a.fedin@g.nsu.ru</a>&gt;</span>:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div dir=3D"ltr">sasdasd<br></div><div class=3D"m_83005810344=
+74087437m_-2305615762327667013HOEnZb"><div class=3D"m_8300581034474087437m_=
+-2305615762327667013h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_=
+quote">2016-12-23 23:34 GMT+07:00 =D0=90=D1=80=D1=82=D0=B5=D0=BC =D0=90=D0=
+=BB=D0=B5=D0=BA=D1=81=D0=B5=D0=B5=D0=B2=D0=B8=D1=87 =D0=A4=D0=B5=D0=B4=D0=
+=B8=D0=BD <span dir=3D"ltr">&lt;<a href=3D"mailto:a.fedin@g.nsu.ru" target=
+=3D"_blank">a.fedin@g.nsu.ru</a>&gt;</span>:<br><blockquote class=3D"gmail_=
+quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1=
+ex"><div dir=3D"ltr">aasdasd<br></div><div class=3D"m_8300581034474087437m_=
+-2305615762327667013m_4327372444032646236HOEnZb"><div class=3D"m_8300581034=
+474087437m_-2305615762327667013m_4327372444032646236h5"><div class=3D"gmail=
+_extra"><br><div class=3D"gmail_quote">2016-12-23 23:23 GMT+07:00 =D0=90=D1=
+=80=D1=82=D0=B5=D0=BC =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B5=D0=B5=D0=B2=D0=
+=B8=D1=87 =D0=A4=D0=B5=D0=B4=D0=B8=D0=BD <span dir=3D"ltr">&lt;<a href=3D"m=
+ailto:a.fedin@g.nsu.ru" target=3D"_blank">a.fedin@g.nsu.ru</a>&gt;</span>:<=
+br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">sdfsdf<br></div><div cla=
+ss=3D"gmail_extra"><br><div class=3D"gmail_quote">2016-12-23 23:22 GMT+07:0=
+0 =D0=90=D1=80=D1=82=D0=B5=D0=BC =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B5=D0=B5=
+=D0=B2=D0=B8=D1=87 =D0=A4=D0=B5=D0=B4=D0=B8=D0=BD <span dir=3D"ltr">&lt;<a =
+href=3D"mailto:a.fedin@g.nsu.ru" target=3D"_blank">a.fedin@g.nsu.ru</a>&gt;=
+</span>:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bo=
+rder-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">sdfsdf<br></div=
+>
+</blockquote></div><br></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+
+--001a114f7e20e924e8054455f74d--
+)

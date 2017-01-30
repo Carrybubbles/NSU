@@ -1,0 +1,31 @@
+#ifndef VIEW_H
+#define VIEW_H
+
+#include <QPaintEvent>
+#include <QPainter>
+#include <QColor>
+#include <QRectF>
+#include "lifemodel.h"
+#include <QWidget>
+
+class View : public QWidget
+{
+    Q_OBJECT
+public:
+    View(Model* _LModel);
+      View(){}
+    ~View();
+    View& operator=(View& another);
+    void paint(QPaintEvent* );
+private slots:
+    
+
+private:
+
+    Model* LModel;
+
+    void paintGrid(QPainter& p);
+    void paintField(QPainter& p);
+};
+
+#endif // VIEW_H

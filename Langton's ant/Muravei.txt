@@ -1,0 +1,10 @@
+#HW_ 20 20
+#XY_ 10 10
+#AntRule_ LRRRRRLLR
+#XYS_ 1 1 1
+#XYS_ 2 3 2  
+#XYS_ 10 3 3
+#XYS_ 1 1 4
+#XYS_ 4 3 5	
+#XYS_ 7 2 5  
+
